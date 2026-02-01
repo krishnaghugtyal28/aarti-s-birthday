@@ -2,39 +2,27 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aarti's Birthday Surprise 🎂</title>
-    
+    <title>Aarti's Birthday Surprise</title>
     <link rel="stylesheet" href="style.css">
-    
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-
     <div class="card">
         <div id="page1">
             <h1>Hey Aartuuu! ✨</h1>
-            <p>Something special is waiting for you...</p>
             <button onclick="startExperience()">Open Surprise 🎁</button>
         </div>
 
-        <div id="page2" class="hidden" style="display: none;">
+        <div id="page2" style="display: none;">
             <h2>Make a wish and BLOW! 🌬️</h2>
-            <div id="timer">3</div>
-            <img src="cake.jpg" id="cake-img" alt="Birthday Cake">
-            <p id="status">Listening for your breath...</p>
+            <img src="cake.jpg" style="width:200px;">
+            <p id="status">Listening...</p>
         </div>
 
-        <div id="page3" class="hidden" style="display: none;">
-            <h1 class="bounce">HAPPY BIRTHDAY! 🎈🎉</h1>
-            <p>May all your wishes come true!</p>
-            <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHJueGZueXFueXFueXFueXFueXFueXFueXFueXFueXFueXFueCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LpDm9ebO5O4f9Gf5G9/giphy.gif" alt="Confetti">
-            <br>
-            <button onclick="location.reload()">Restart 🔄</button>
+        <div id="page3" style="display: none;">
+            <h1>HAPPY BIRTHDAY! 🎈🎉</h1>
         </div>
     </div>
 
     <script src="script.js"></script>
-
 </body>
 </html>
